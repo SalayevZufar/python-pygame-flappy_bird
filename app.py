@@ -205,7 +205,6 @@ while running:
     ground.draw()
     
     bird.draw(screen)
-    # pygame.display.flip()
     clock.tick(65)
     pygame.display.update()
     
