@@ -151,7 +151,7 @@ while running:
 
 
         if (pipe.cor_x > bird.cor_x and pipe.cor_x < bird.cor_x + bird.width) and ((pipe.cor_y  < bird.cor_y and pipe.cor_y + pipe.height > bird.cor_y + bird.width) or (pipe.cor_y +pipe.height +200  < bird.cor_y + bird.width and pipe.cor_y +pipe.height +200 + 400>bird.cor_y + bird.width)) :
-            print("hello")
+            print("collide")
         
         # if (pipe.cor_x > bird.cor_x and pipe.cor_x < bird.cor_x + bird.width) and (pipe.cor_y +pipe.height +200  < bird.cor_y + bird.width and pipe.cor_y +pipe.height +200 + 400>bird.cor_y + bird.width) :
         #     print("hello")
